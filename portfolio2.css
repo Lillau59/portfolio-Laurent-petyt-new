@@ -2,18 +2,13 @@ body {
     font-family: "Montserrat", sans-serif;
     background: rgb(172, 170, 170);
     color: whitesmoke;
-    background-attachment: fixed;
+
 }
 
 nav {
     display: flex;
-    justify-content: space-around;
-    margin: 20px;
-    
-
-
-
-
+    text-align: center;
+    justify-content: center;
 }
 
 
