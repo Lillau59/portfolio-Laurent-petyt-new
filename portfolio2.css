@@ -2,18 +2,4 @@ body {
     font-family: "Montserrat", sans-serif;
     background: rgb(172, 170, 170);
     color: whitesmoke;
-    
-}
-
-header {
-    display: grid;
-
-    
-}
-
-.photoprofil {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-column: 2/3;
-}
-
+}    
