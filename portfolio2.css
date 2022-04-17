@@ -9,14 +9,13 @@ body {
     display: flex;
     background-color: whitesmoke;
     border-color: aquamarine;
-    border-radius: 0;
+    border-radius: 5px;
     min-height: 51px;
     margin-bottom: 21px;
     border: 5px transparent;
     box-sizing: border-box;
     justify-content: center;
 }
-
 .navbar ul{
     display: flex;
     justify-content: end;
@@ -25,9 +24,7 @@ body {
     gap: 15px;
     margin: 15px;
     padding: 0;
-
 }
-
 header section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -36,11 +33,9 @@ header section {
     max-width: 1300px;
     margin: auto;
 }
-
 header img {
     width: 100%;
 }
-
 .competences ul {
     display: flex;
     width: 100%;
@@ -50,13 +45,11 @@ header img {
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
 .competences ul li {
     list-style-type: none;
     width: 100px;
 
 }
-
 .competences ul li img {
     width: 100%;
 }
