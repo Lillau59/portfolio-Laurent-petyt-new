@@ -75,7 +75,8 @@ header img {
 
 .illu2 {
     display: flex;
-    justify-content: end;
+    justify-content: space-around;
+    width: 100%;
     gap: 10px;
     padding: 0;
     margin: auto;
@@ -84,7 +85,7 @@ header img {
 
 .illu3 {
     display: flex;
-    justify-content: end;
+    justify-content: space-around;
     gap: 10px;
     padding: 0;
     margin: auto;
