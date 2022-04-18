@@ -7,7 +7,8 @@ body {
 
 .navbar {
     display: flex;
-    background-color: rgb(217, 214, 214);    
+    background-color: grey;
+    
     border-radius: 10px;
     min-height: 51px;
     margin-bottom: 20px;
@@ -91,14 +92,13 @@ header img {
     margin: auto;
     
 }
-
 footer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     align-items: center;
     width: 100%;
     max-width: 1300px;
     margin: auto;
+    gap: 15px;
 
 }
 
