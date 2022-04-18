@@ -3,10 +3,7 @@ body {
     font-family: "Montserrat", sans-serif !important;
     background: rgb(69, 66, 66);
     color: whitesmoke;
-
 }
-
-
 
 .navbar {
     display: flex;
@@ -148,7 +145,7 @@ header img {
 
 }
 footer {
-    background-color: #2b2b2b !important;
+    background-color: #5a5959 !important;
     color: white !important; 
     display: flex;
     flex-direction: row-reverse;
@@ -158,8 +155,23 @@ footer {
 
 }
 
+@media screen and (max-width : 800px) {
+    .presentation {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
 
-
+@media screen and (max-width : 660px) {
+        footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+}
+    
 
 
 
