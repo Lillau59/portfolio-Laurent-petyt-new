@@ -7,16 +7,15 @@ body {
 
 .navbar {
     display: flex;
-    background-color: whitesmoke;
-    border-color: aquamarine;
-    border-radius: 5px;
+    background-color: rgb(217, 214, 214);    
+    border-radius: 10px;
     min-height: 51px;
-    margin-bottom: 21px;
-    border: 5px transparent;
+    margin-bottom: 20px;
+    border: 25px transparent;
     box-sizing: border-box;
     justify-content: center;
 }
-.navbar ul{
+.navbar ul {
     display: flex;
     justify-content: end;
     width: 100%;
@@ -24,6 +23,7 @@ body {
     gap: 15px;
     margin: 15px;
     padding: 0;
+    list-style-type: none;
 }
 header section {
     display: grid;
@@ -53,6 +53,28 @@ header img {
 .competences ul li img {
     width: 100%;
 }
+
+.briefsgithub ul {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.briefsgithub ul li {
+    list-style-type: none;
+    width: 350px;
+}
+
+.briefsgithub ul li img {
+    width: 100%;
+    height: 200px;
+}
+
+
+
 
 
 
